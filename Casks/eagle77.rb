@@ -6,7 +6,7 @@ cask 'eagle77' do
   name 'Eagle v7.7.0'
   homepage 'http://eagle.autodesk.com/eagle/software-versions/1'
 
-  pkg "eagle-mac64-${version}.pkg"
+  pkg "eagle-mac64-#{version}.pkg"
 
   uninstall pkgutil: [
                        "com.CadSoftComputerGmbH.EAGLE-#{version}-64"
