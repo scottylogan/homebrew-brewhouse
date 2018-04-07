@@ -1,4 +1,4 @@
-cask '/Users/scotty/src/homebrew-brewhouse/Casks/eagle' do
+cask '/Users/scotty/src/homebrew-brewhouse/Casks/eagle77' do
   version '7.7.0'
   sha256 '4f6aae6e2b56f3da4bd24940ac4f09e838a2b3105c5ff506b80825a8a1250022'
 
