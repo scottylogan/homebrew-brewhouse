@@ -4,7 +4,7 @@ class Ec2Tools < Formula
   desc "EC2 Tools"
   homepage "https://github.com/scottylogan/ec2-tools/"
   url "https://github.com/scottylogan/ec2-tools/archive/v0.2.1.tar.gz"
-  sha256 "9fd07eec291f66aaff8a0985b7ec31cf2c941f595aa910a44c259189b95522e5"
+  sha256 "45832f68b6bab1ead39fc5bf6f7ad3367c9b3b90bf41a37eb084f77300c636b0"
 
   depends_on "node"
 
