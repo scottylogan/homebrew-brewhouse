@@ -11,8 +11,8 @@ class Galasm < Formula
   def install
     cd "src" do
       system "make"
-      install "-dv", bin
-      install "-v", "galasm", bin
+      bin.mkpath
+      bin.install "galasm"
     end
   end
 
