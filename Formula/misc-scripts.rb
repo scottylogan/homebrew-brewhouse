@@ -8,7 +8,7 @@ class MiscScripts < Formula
     system "install", "-d", bin
     system *Dir.glob("bin/*").unshift("install").push(bin)
     bin.install_symlink "people" => "accounts"
-    bin.install_symlink "people" => "groups"
+    bin.install_symlink "people" => "ldapgroups"
   end
 
   test do
