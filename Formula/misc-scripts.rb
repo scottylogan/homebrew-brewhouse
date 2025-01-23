@@ -1,8 +1,8 @@
 class MiscScripts < Formula
   desc "Miscelleaneous Scripts"
   homepage "https://github.com/scottylogan/misc-scripts/"
-  url "https://github.com/scottylogan/misc-scripts/archive/v0.1.5.tar.gz"
-  sha256 "492e152a578e7ae373a37dbade30598831f74adf598c26251768832b76e78e46"
+  url "https://github.com/scottylogan/misc-scripts/archive/v0.1.6.tar.gz"
+  sha256 "829c2eceea5dd8f454e0c61534df427065014042e13880f8fa8f99391940f56b"
 
   def install
     system "install", "-d", bin
