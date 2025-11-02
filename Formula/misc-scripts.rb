@@ -1,14 +1,15 @@
 class MiscScripts < Formula
   desc "Miscelleaneous Scripts"
   homepage "https://github.com/scottylogan/misc-scripts/"
-  url "https://github.com/scottylogan/misc-scripts/archive/v0.1.6.tar.gz"
-  sha256 "829c2eceea5dd8f454e0c61534df427065014042e13880f8fa8f99391940f56b"
+  url "https://github.com/scottylogan/misc-scripts/archive/v0.1.8.tar.gz"
+  sha256 "cba7d02e3dc0a42a20825248acde1da44339a5f2ad4da68579eca5b5b02496e8"
 
   def install
     system "install", "-d", bin
     system *Dir.glob("bin/*").unshift("install").push(bin)
-    bin.install_symlink "people" => "accounts"
-    bin.install_symlink "people" => "ldapgroups"
+    bin.install_symlink "su-ldap" => "accounts"
+    bin.install_symlink "su-ldap" => "ldapgroups"
+    bin.install_symlink "su-ldap" => "people"
   end
 
   test do
