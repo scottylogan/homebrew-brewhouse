@@ -4,11 +4,6 @@ A random assortment of [Hombrew](brew.sh) Formula and Cask packages.
 
 ## Casks
 
-### eagle77
-
-Installs the last non-subscription version (7.7.0) of
-[Eagle](https://www.autodesk.com/products/eagle/overview).
-
 ## Formula
 
 ### ec2-tools
