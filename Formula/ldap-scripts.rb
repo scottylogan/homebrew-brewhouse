@@ -1,4 +1,4 @@
-class LDAPScripts < Formula
+class LdapScripts < Formula
   desc "LDAP Scripts"
   homepage "https://github.com/scottylogan/ldap-scripts/"
   url "https://github.com/scottylogan/ldap-scripts/archive/v0.1.0.tar.gz"
